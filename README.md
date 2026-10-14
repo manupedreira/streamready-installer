@@ -1,6 +1,9 @@
-<p align="center"><img src="logo.svg" width="96" height="96" alt="StreamReady"></p>
-
-<h1 align="center">StreamReady</h1>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="wordmark-dark.svg">
+    <img src="wordmark-light.svg" alt="StreamReady" width="420">
+  </picture>
+</p>
 
 <p align="center"><em>Like streaming, minus the buffering.</em></p>
 
