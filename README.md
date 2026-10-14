@@ -1,6 +1,8 @@
-# StreamReady
+<p align="center"><img src="logo.svg" width="96" height="96" alt="StreamReady"></p>
 
-*Like streaming, minus the buffering.*
+<h1 align="center">StreamReady</h1>
+
+<p align="center"><em>Like streaming, minus the buffering.</em></p>
 
 StreamReady monta en tu casa un servidor multimedia para la tele. Tiene listo el siguiente episodio antes de que le des al play, no descarga lo que ya está en Netflix o Prime, y se configura en unos clics.
 
