@@ -1,0 +1,51 @@
+CONTRATO DE LICENCIA DE USUARIO FINAL DE STREAMREADY
+Copyright (c) 2026 Manuel Pedreira. Todos los derechos reservados.
+
+Lee este contrato antes de instalar StreamReady. Al instalarlo o usarlo, aceptas
+estas condiciones. Si no las aceptas, no lo instales.
+
+1. LICENCIA
+   Se te concede una licencia personal, gratuita, no exclusiva, intransferible y
+   revocable para instalar y usar StreamReady en tus propios equipos, para uso
+   doméstico y no comercial, durante el periodo de pruebas.
+
+2. RESTRICCIONES
+   No puedes, sin permiso previo y por escrito del autor:
+   a) copiar, redistribuir, publicar, vender, alquilar o sublicenciar StreamReady
+      o su instalador, total o parcialmente;
+   b) modificarlo, descompilarlo, desensamblarlo, aplicarle ingeniería inversa o
+      extraer su código fuente, salvo en lo que la ley aplicable lo permita
+      expresamente pese a esta limitación;
+   c) crear obras derivadas a partir de él o de su código;
+   d) eliminar o alterar los avisos de autoría o de licencia.
+
+3. PROPIEDAD
+   StreamReady, su código y su diseño son propiedad del autor. Esta licencia no
+   te transmite ningún derecho de propiedad intelectual o industrial.
+
+4. PROGRAMAS DE TERCEROS
+   El instalador puede descargar e instalar programas de terceros (Jellyfin,
+   Sonarr, Radarr, Prowlarr, Bazarr, qBittorrent y otros) desde sus fuentes
+   oficiales. Esos programas no forman parte de StreamReady, se rigen por sus
+   propias licencias y su uso es responsabilidad tuya.
+
+5. USO RESPONSABLE
+   StreamReady no incluye ni recomienda fuentes de contenido. Eres el único
+   responsable de las fuentes que configures y de que el contenido que obtengas,
+   almacenes o reproduzcas respete la legislación aplicable y los derechos de
+   propiedad intelectual de terceros.
+
+6. AUSENCIA DE GARANTÍA
+   StreamReady es una versión de pruebas y se proporciona "tal cual", sin garantía
+   de ningún tipo. En la medida en que la ley lo permita, el autor no será
+   responsable de ningún daño derivado de su instalación o uso, incluida la
+   pérdida de datos.
+
+7. TERMINACIÓN
+   Esta licencia termina automáticamente si incumples cualquiera de sus
+   condiciones. En ese caso debes desinstalar StreamReady.
+
+8. LEY APLICABLE
+   Este contrato se rige por la legislación española.
+
+Contacto: manupedreira@proton.me
