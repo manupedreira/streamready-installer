@@ -24,10 +24,9 @@ estas condiciones. Si no las aceptas, no lo instales.
    te transmite ningún derecho de propiedad intelectual o industrial.
 
 4. PROGRAMAS DE TERCEROS
-   El instalador puede descargar e instalar programas de terceros (Jellyfin,
-   Sonarr, Radarr, Prowlarr, Bazarr, qBittorrent y otros) desde sus fuentes
-   oficiales. Esos programas no forman parte de StreamReady, se rigen por sus
-   propias licencias y su uso es responsabilidad tuya.
+   StreamReady se conecta a programas y servicios de terceros (Jellyfin,
+   Stremio, TMDB y otros). No forman parte de StreamReady, se rigen por sus
+   propias licencias y condiciones, y su uso es responsabilidad tuya.
 
 5. USO RESPONSABLE
    StreamReady no incluye ni recomienda fuentes de contenido. Eres el único
