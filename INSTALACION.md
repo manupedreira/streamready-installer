@@ -46,7 +46,7 @@ Para que la tele y el móvil encuentren el ordenador:
 
 ## 3 · StreamReady
 
-1. Descarga `StreamReady-Setup-x.y.z.exe` de [Releases](../../releases/latest).
+1. Descarga `StreamReady-Setup-x.y.z.exe` de [Releases](../../releases).
 2. *(Recomendado)* Comprueba que es el original: su huella SHA-256 está en la página de la versión.
    ```powershell
    Get-FileHash .\StreamReady-Setup-x.y.z.exe -Algorithm SHA256

@@ -15,7 +15,7 @@ StreamReady junta lo que veis en Jellyfin, Netflix, Prime y Stremio: qué estái
 
 **[Guía paso a paso → INSTALACION.md](INSTALACION.md)**: Jellyfin, la red de casa, StreamReady, la extensión para Netflix y Prime, Stremio, la tele y el móvil. Unos 30–45 minutos.
 
-En resumen: un ordenador con Windows siempre encendido y Jellyfin instalado; descarga `StreamReady-Setup-x.y.z.exe` de [Releases](../../releases/latest), ábrelo y sigue el asistente.
+En resumen: un ordenador con Windows siempre encendido y Jellyfin instalado; descarga `StreamReady-Setup-x.y.z.exe` de [Releases](../../releases), ábrelo y sigue el asistente.
 
 ## Panel de StreamReady
 
