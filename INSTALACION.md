@@ -69,7 +69,11 @@ La extensión lee vuestra lista, por dónde vais y lo que habéis visto, con la 
 
 En su ventana eliges la franja horaria de la lectura diaria (por defecto, de 18:00 a 22:00).
 
-**Historial antiguo de Netflix** (recomendado, una vez): en Netflix → Cuenta → Perfiles → vuestro perfil → Actividad de visionado → **Descargar todo**. Sube ese fichero en StreamReady → *Ajustes → Conexiones → Carga inicial*. Así las sugerencias aprenden de años de historial.
+**Historial antiguo de Netflix** (recomendado, una vez): en Netflix → Cuenta → Perfiles → vuestro perfil → Actividad de visionado → **Descargar todo**. Sube ese fichero en StreamReady → *Ajustes → Conexiones → Carga inicial*. Así las sugerencias aprenden de años de historial. Para todos los perfiles a la vez, sube en su lugar el ZIP de *Cuenta → Descargar tu información personal* (tarda unos días en llegar).
+
+**Historial antiguo de Prime Video** (opcional, una vez): en Amazon → Cuenta → *Solicitar tus datos* → Prime Video. El ZIP llega por correo en unos días; súbelo en el mismo sitio. StreamReady solo lee de él el historial y vuestra lista.
+
+Las exportaciones no meten nada en vuestra lista: lo que estuvo en ella alguna vez sale en el panel, en «Estuvieron en vuestra lista», por si queréis recuperar algo.
 
 ## 5 · Stremio (opcional)
 
@@ -77,9 +81,14 @@ En su ventana eliges la franja horaria de la lectura diaria (por defecto, de 18:
 
 ## 6 · Cómo queda en Jellyfin
 
+**Vuestra lista** es «Mi lista» de Netflix y Prime y la biblioteca de Stremio, tal como están hoy. Lo que quitáis en la plataforma sale también de StreamReady. Lo que la plataforma retira de su catálogo se queda en vuestra lista y sale en Novedades, para que no le perdáis la pista.
+
 - **Fichas** de lo que está en vuestra lista o en «Para ti» y no tenéis en casa, con póster, sinopsis y temporadas. Al reproducirlas, un aviso dice en qué plataforma está.
 - **Colecciones**: «Nuestra lista», «Viendo», «Para ti», y secciones por plataforma («Series · Netflix», «Películas · Jellyfin»…).
 - **Bibliotecas**: por defecto, «Series en plataformas» y «Películas en plataformas». Si preferís todo junto en «Tus series» y «Tus películas», marcad *Ajustes → Jellyfin → Juntarlo con vuestras bibliotecas* (no mueve ni borra vuestros vídeos).
+- **Sugerencias**: en sus propias bibliotecas, «Series para ti» y «Películas para ti».
+- **Quitar algo de «Viendo»**: márcalo como visto (✓) en Jellyfin. Vuelve solo si avanzáis en alguna plataforma.
+- **♥ = «Me gusta»**: no añade nada a vuestra lista, pero refuerza las sugerencias.
 - **Orden**: en cada biblioteca, *Ordenar por → Fecha de añadido* (es el día que entró en vuestra lista).
 
 ## 7 · La tele y el móvil
