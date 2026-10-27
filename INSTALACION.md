@@ -52,7 +52,8 @@ Para que la tele y el móvil encuentren el ordenador:
    Get-FileHash .\StreamReady-Setup-x.y.z.exe -Algorithm SHA256
    ```
 3. Ábrelo. Como aún no tiene firma digital, el navegador puede avisar al descargarlo y Windows mostrará «Windows protegió tu PC»: **Más información → Ejecutar de todas formas**.
-4. Al terminar se abre el **asistente** en el navegador: entra con tu usuario de Jellyfin y marca vuestras plataformas (Netflix, Prime Video…).
+4. Deja marcada la casilla **«Pestañas de StreamReady en el inicio de Jellyfin»** (ver el apartado 6). Jellyfin se reinicia un momento al instalar.
+5. Al terminar se abre el **asistente** en el navegador: entra con tu usuario de Jellyfin y marca vuestras plataformas (Netflix, Prime Video…).
 
 El panel de StreamReady queda en `http://localhost:8765` en ese ordenador, y en `http://<IP-del-ordenador>:8765` desde el móvil (el asistente te dice la dirección).
 
@@ -81,14 +82,18 @@ Las exportaciones no meten nada en vuestra lista: lo que estuvo en ella alguna v
 
 ## 6 · Cómo queda en Jellyfin
 
-**Vuestra lista** es «Mi lista» de Netflix y Prime y la biblioteca de Stremio, tal como están hoy. Lo que quitáis en la plataforma sale también de StreamReady. Lo que la plataforma retira de su catálogo se queda en vuestra lista y sale en Novedades, para que no le perdáis la pista.
+**Vuestra lista** es «Mi lista» de Netflix y Prime, la biblioteca de Stremio y lo que tenéis en Jellyfin, tal como están hoy. Lo que quitáis en la plataforma (o borráis de Jellyfin) sale también de StreamReady. Lo que la plataforma retira de su catálogo se queda en vuestra lista y sale en Novedades, para que no le perdáis la pista.
 
+- **Pestañas en el inicio**: «Home» (seguir viendo y lo último de casa), «Tus series» y «Tus películas» (una fila por plataforma) y «Sugerencias» (lo nuevo de Stremio y lo «para ti»). Se ven en el navegador, en Jellyfin Media Player, en la app de Android del móvil y en las teles LG y Samsung; en las apps nativas (Android TV, Apple TV, Roku) sigue el inicio de siempre. La primera vez, cierra la app de la tele del todo y vuelve a abrirla.
 - **Fichas** de lo que está en vuestra lista o en «Para ti» y no tenéis en casa, con póster, sinopsis y temporadas. Al reproducirlas, un aviso dice en qué plataforma está.
 - **Colecciones**: «Nuestra lista», «Viendo», «Para ti», y secciones por plataforma («Series · Netflix», «Películas · Jellyfin»…).
 - **Bibliotecas**: por defecto, «Series en plataformas» y «Películas en plataformas». Si preferís todo junto en «Tus series» y «Tus películas», marcad *Ajustes → Jellyfin → Juntarlo con vuestras bibliotecas* (no mueve ni borra vuestros vídeos).
-- **Sugerencias**: en sus propias bibliotecas, «Series para ti» y «Películas para ti».
+- **Sugerencias**: 20 series y 20 películas, en sus propias bibliotecas, «Series para ti» y «Películas para ti». Lo nuevo de Stremio (20 de cada), en «Series nuevas en Stremio» y «Películas nuevas en Stremio». Las cantidades se cambian en *Ajustes*.
+- **Añadir a Stremio desde la tele**: dale a reproducir a una ficha de esas bibliotecas; se añade a vuestra biblioteca de Stremio (el aviso lo dice).
+- **Filtrar por plataforma**: en cualquier biblioteca, *Filtros → Etiquetas* → «Netflix», «Prime Video», «Sin plataforma» o «Pendiente · sin plataforma».
 - **Quitar algo de «Viendo»**: márcalo como visto (✓) en Jellyfin. Vuelve solo si avanzáis en alguna plataforma.
 - **♥ = «Me gusta»**: no añade nada a vuestra lista, pero refuerza las sugerencias.
+- **Borrar lo ya visto** (opcional): *Ajustes → Jellyfin → Borrar de Jellyfin lo ya visto tras (días)*. Películas y episodios vistos enteros salen antes en el panel («Se borrarán pronto», con «Conservar») y después se borran con «Eliminar» de Jellyfin, fichero incluido.
 - **Orden**: en cada biblioteca, *Ordenar por → Fecha de añadido* (es el día que entró en vuestra lista).
 
 ## 7 · La tele y el móvil
